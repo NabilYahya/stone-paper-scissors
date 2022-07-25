@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+body {
+ background-color: #323131;
+ height: 800px;
+}
+header {
+	text-align: center;
+	background-color: white;
+	color: #322e2d;
+	padding: 20px 10px;
+	font-size : 30px;
+}
+.score_bord {
+	border: solid 2px white;
+	width: 14%;
+	padding: 20px 15px;
+	text-align: center;
+	margin: 20px  auto;
+	margin-top: 10px;
+	padding-top: 20px;
+	position: relative; color: white;
+
+}
+.score_bord #user {
+	background-color: #bc2525;
+	position: absolute;
+	top: 70px;
+	left: -20px;
+	color: white;
+}
+.score_bord #com {
+	background-color: #bc2525;
+	position: absolute;
+	top: 70px;
+	right: -18px;
+	color: white;
+}
+.score_bord #user_score {
+	color: white;
+	font-size: 35px;
+}
+.score_bord #cpu_score {
+	color: white;
+	font-size: 35px;
+}
+.thewholthing h3 {
+	color: white;
+	text-align: center;
+}
+.thewholthing h2 {
+	color: white;
+	text-align: center;
+}
+.imgess {
+	text-align: center;
+	padding: 20px;
+	
+}
+.imgess #s {
+	padding-right: 10px;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+	padding: 20px 20px;
+
+}
+.imgess #s:hover {
+	background-color: #40bc25;
+
+}
+.imgess #p {
+	padding-right: 10px;
+	transition: all 0.4s ease;
+	border-radius: 50%;
+}
+.imgess #p:hover {
+	background-color: #df2323;
+	padding: 20px 20px;
+
+}
+.imgess #r {
+	padding-right: 10px;
+	transition: all 0.4s ease;
+	border-radius: 50%;
+
+}
+.imgess #r:hover {
+	background-color: #2395df;
+	padding: 20px 20px;
+
+}
+.green_glue {
+	border: solid 4px #4dcc7d;
+	box-shadow: 0 0 10px #31b43a; }
+
+.red_glue {
+	border: solid 4px #ee0909;
+	box-shadow:  0 0 10px #ee0909;
+}
